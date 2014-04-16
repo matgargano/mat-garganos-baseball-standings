@@ -1,0 +1,31 @@
+.widget_mat_gargano_baseball_standings {
+	.divisions {
+		margin-bottom:5px;
+		
+		.division {
+			cursor:pointer;
+			&:hover {
+				color:#FF0000;
+			}
+			&.selected {
+				font-weight:bold;
+				text-decoration:underline;
+			}	
+		}
+	}
+	table {
+		border:0;
+		td, tr, th {
+			border:0;
+		}
+		th {
+			font-weight:bold;
+		}
+	}
+	.win-pct {
+		padding-left:10px;
+		&.header {
+			padding-left:15px;
+		}
+	}
+}

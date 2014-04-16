@@ -1,0 +1,26 @@
+{
+  "name": "mat-garganos-baseball-standings",
+  "description": "Provides you with a WordPress widget to display current MLB Standings.",
+  "version": "2.0.0",
+  "homepage": "https://github.com/matstars/mat-garganos-baseball-standings",
+  "author": {
+    "name": "Mat Gargano <mgargano@gmail.com>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:matstars/mat-garganos-baseball-standings.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matstars/mat-garganos-baseball-standings/issues"
+  },
+  
+  "main": "Gruntfile.js",
+  "devDependencies": {
+    "grunt-contrib-watch": "latest",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-cssmin": "~0.6.1",
+    "grunt-contrib-sass": "~0.6.0",
+    "grunt": "~0.4.1"
+  }
+}

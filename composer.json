@@ -1,0 +1,16 @@
+{
+    "name": "mgargano/mat-garganos-baseball-standings",
+    "description": "Provides you with a WordPress widget to display current MLB Standings.",
+    "keywords": ["wordpress", "widget"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Mat Gargano",
+            "email": "mgargano@gmail.com"
+        }
+    ],
+    "type": "wordpress-plugin",
+    "autoload": {
+        "files": ["mat-gargano-baseball-standings.php"]
+    }
+}

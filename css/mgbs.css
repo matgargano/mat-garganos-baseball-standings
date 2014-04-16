@@ -1,0 +1,19 @@
+.widget_mat_gargano_baseball_standings .divisions {
+  margin-bottom: 5px; }
+  .widget_mat_gargano_baseball_standings .divisions .division {
+    cursor: pointer; }
+    .widget_mat_gargano_baseball_standings .divisions .division:hover {
+      color: #FF0000; }
+    .widget_mat_gargano_baseball_standings .divisions .division.selected {
+      font-weight: bold;
+      text-decoration: underline; }
+.widget_mat_gargano_baseball_standings table {
+  border: 0; }
+  .widget_mat_gargano_baseball_standings table td, .widget_mat_gargano_baseball_standings table tr, .widget_mat_gargano_baseball_standings table th {
+    border: 0; }
+  .widget_mat_gargano_baseball_standings table th {
+    font-weight: bold; }
+.widget_mat_gargano_baseball_standings .win-pct {
+  padding-left: 10px; }
+  .widget_mat_gargano_baseball_standings .win-pct.header {
+    padding-left: 15px; }
